@@ -6,14 +6,14 @@
 }  
 /*Selector por etiqueta*/
 header{
-    background: #1E3C40;
+    background: #27538C;
     text-align: center;
     color:white;
     padding: 10px;
 }
 
 footer{
-    background: #1E3C40;
+    background: #27538C;
     text-align: center;
     color:white;
     line-height: 70px;
@@ -74,6 +74,42 @@ cursor: pointer;
     color:white
 }
 
+#contenido table{
+    margin: auto
+}
+
+#contenido h2{
+    text-align: center;
+    color: #30A9D9;
+    margin: 10px;
+}
+
+#contenido form{
+    border: 3px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#contenido form *{
+    display: inline-block;
+}
+
+input[type="text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type="submit"], button{
+    background: #F28177 ;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*Selector por clase*/
 .clearFix{
     float: none;
     clear: both;
